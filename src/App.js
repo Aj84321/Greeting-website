@@ -1,6 +1,11 @@
-import React from 'react'
+import "./styles.css";
+import Navbar from "./components/Navbar";
+// import { Routes } from "react-router-dom";
 
-function App() {
-return <h1>Hello World</h1>;
+export default function App(){
+    return(
+        <div className="App">
+        <Navbar/>
+        </div>
+    )
 }
-export default App;
